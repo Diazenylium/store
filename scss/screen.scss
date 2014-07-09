@@ -1,14 +1,14 @@
 @import "reset";
 
-div{
+/*div{
   width:100%;
-}
+}*/
 
 .wrap {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 20px;
-  background: white;
+  margin:0 auto;
+  max-width: 1200px;
+  background-color:rgb(255,209,198);
+  padding: 0 0 150px 0;
 }
 
 body {
@@ -21,37 +21,9 @@ a {
   color: #800000;
 }
 
-p {
-  margin-bottom: 1.1em;
-  font-size:15px;
-  display:inline-block;
-  vertical-align:top;
-}
 
-h1 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: .8em;
-}
 span{
   font-size:18px;
-}
-.content {
-  padding: 20px 0;
-  font-size: 0;
-  background-color:rgb(255,209,198);
-}
-
-.main, .side {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.main {
-  width: 70%;
-  margin-right: 15%;
-  margin-left: 15%;
-  font-size: 16px;
 }
 
 .side {
@@ -60,25 +32,26 @@ span{
   font-size: 14px;
 }
 .head{
-  height:500px;
+  height:800px;
   position: relative;
   background-image:url("http://img3.wikia.nocookie.net/__cb20111117181828/fantendo/images/1/18/TripleMushroomsMKC.png");
   background-size:cover;
   background-color:rgba(255,166,144,1);
-  background-position:0px 50%;
+  background-position:center;
 }
 .head1{
   display:inline-block;
-  margin-top:100px;
+  margin-top:15%;
   height:250px;
   width:200px;
   padding:10px;
-  margin-left:20px;
+  margin-left:5%;
   border-radius:40px;
   font-size:14px;
   box-shadow:0px 0px 25px rgb(25,0,0);
   background-image:radial-gradient(rgba(255,190,168,0.8),rgba(102,23,0,0.8));
 }
+
 .title{
   font-size:28px;
   font-style:italic;
@@ -105,12 +78,21 @@ span{
 .test > div{
   width:49%;
   height:auto;
+  margin:0 auto;
 }
 
 .test1{
   height:50px;
-  width:38%;
   font-size:14px;
+  width:80%;
+  line-height:1;
+  padding-right:20px;
+  color:rgb(102,23,0);
+}
+.test2{
+  height:50px;
+  font-size:14px;
+  width:100%;
   line-height:1;
   padding-right:20px;
   color:rgb(102,23,0);
@@ -118,29 +100,28 @@ span{
 
 .testimonial{
   position: absolute;
-  left:70px;
+  left:10%;
   top:5px;
 }
 
 .testimonial1{
   position: absolute;
   bottom:10px;
-  left:70px;
+  left:10%;
   height:60px;
   margin-right: 20px;
 }
 .testimonial2{
   position: absolute;
-  left:65%;
+  left:60%;
   top:5px;
 }
 
 .testimonial3{
   position: absolute;
   bottom:0;
-  left:65%;
+  left:60%;
   height:60px;
-  margin-right: 20px;
 }
 
 .toadpic, .bowser, .peach{
