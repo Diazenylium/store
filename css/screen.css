@@ -86,7 +86,7 @@ span {
 }
 
 .head {
-  height: 800px;
+  height: 850px;
   position: relative;
   background-image: url("http://img3.wikia.nocookie.net/__cb20111117181828/fantendo/images/1/18/TripleMushroomsMKC.png");
   background-size: cover;
@@ -146,14 +146,8 @@ span {
   padding-right: 20px;
   color: #661700;
 }
-
-.test2 {
-  height: 50px;
-  font-size: 14px;
+.test1:nth-of-type(3) {
   width: 100%;
-  line-height: 1;
-  padding-right: 20px;
-  color: #661700;
 }
 
 .testimonial {
