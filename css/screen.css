@@ -55,9 +55,35 @@ table {
   background-position: 0 0;
 }
 
+<<<<<<< HEAD
 /*div{
   width:100%;
 }*/
+=======
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+>>>>>>> master
 .wrap {
   margin: 0 auto;
   max-width: 1200px;
@@ -66,6 +92,7 @@ table {
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -145,11 +172,43 @@ span {
   line-height: 1;
   padding-right: 20px;
   color: #661700;
+=======
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 21px;
+  background: lightgrey;
+}
+
+.content {
+  padding: 20px 0;
+  font-size: 0;
+}
+
+.main {
+  width: 100%;
+  margin-right: 5%;
+  font-size: 16px;
+}
+
+nav {
+  background-color: red;
+}
+nav a {
+  color: #800000;
+  text-decoration: none;
+  padding: 2em;
+}
+
+/* unvisited link */
+a:link {
+  color: #800000;
+>>>>>>> master
 }
 .test1:nth-of-type(3) {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .testimonial {
   position: absolute;
   left: 10%;
@@ -175,49 +234,44 @@ span {
   bottom: 0;
   left: 60%;
   height: 60px;
+=======
+/* visited link */
+a:visited {
+  color: #800000;
 }
 
-.toadpic, .bowser, .peach {
-  width: 60px;
-  height: 60px;
-  background-image: url("http://img3.wikia.nocookie.net/__cb20111115195110/mario/de/images/a/ae/NSMBW_Artwork_Toad.png");
-  background-size: 54px auto;
-  background-position: top-center;
-  background-color: grey;
-  border-radius: 50%;
-  border: 2px solid grey;
+/* mouse over link */
+a:hover {
+  color: #ffffff;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+}
+
+p {
+  margin-bottom: 1.1em;
+  text-indent: 5%;
+>>>>>>> master
+}
+
+.pure-u-1-4 {
+  border: 1px solid grey;
+  height: 600px;
   display: inline-block;
-  margin: 5px;
+  padding: 1em;
 }
 
-.bowser {
-  background-image: url("http://images.wikia.com/fantendo/images/archive/9/98/20110731164035!Bowser_NSMBW.png");
-  background-size: 90px auto;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.peach {
-  background-image: url("http://images2.fanpop.com/image/photos/9300000/Mario-Party-8-peach-and-daisy-9349959-1044-1580.jpg");
-  background-size: 90px auto;
-  background-position: -25px 0px;
-}
-
-.plant {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  top: 75px;
-  left: 50%;
-  background-size: 54px auto;
-  background-position: top-center;
-  background-color: grey;
-  border-radius: 50%;
-  border: 2px solid grey;
+/*.pure-g {
   display: inline-block;
-  margin: 5px;
-  background-image: url("http://img4.wikia.nocookie.net/__cb20121119025023/mario/images/c/c9/Piranha_Plant,_New_Super_Mario_Bros._U.png");
-  background-position: 0px 10px;
-}
-
+  width: 240px;
+}*/
 h2 {
   text-align: center;
   margin: 10px;
