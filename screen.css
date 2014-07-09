@@ -68,10 +68,9 @@ div{
 }
 
 body {
-  font-family:"helvetica";
-  font-size: 16px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
   line-height: 21px;
-  background: lightgray;
 }
 
 a {
@@ -80,17 +79,23 @@ a {
 
 p {
   margin-bottom: 1.1em;
+  font-size:15px;
+  display:inline-block;
+  vertical-align:top;
 }
 
 h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: .8em;
 }
-
+span{
+  font-size:18px;
+}
 .content {
   padding: 20px 0;
   font-size: 0;
+  background-color:rgb(255,209,198);
 }
 
 .main, .side {
@@ -111,9 +116,12 @@ h1 {
   font-size: 14px;
 }
 .head{
-  border:1px solid black;
   height:500px;
   position: relative;
+  background-image:url("http://img3.wikia.nocookie.net/__cb20111117181828/fantendo/images/1/18/TripleMushroomsMKC.png");
+  background-size:cover;
+  background-color:rgba(255,166,144,1);
+  background-position:0px 50%;
 }
 .head1{
   display:inline-block;
@@ -121,26 +129,38 @@ h1 {
   height:250px;
   width:200px;
   padding:10px;
-  margin-left:10px;
-  border:1px solid black;
+  margin-left:20px;
+  border-radius:40px;
   font-size:14px;
+  box-shadow:0px 0px 25px rgb(25,0,0);
+  background-image:radial-gradient(rgba(255,190,168,0.8),rgba(102,23,0,0.8));
 }
 .title{
-  font-size:20px;
+  font-size:28px;
   font-style:italic;
+  padding-bottom:0px;
+  margin:0;
+  margin-bottom: 5px;
+  line-height:100%;
+}
+.head1 > p{
+  color:white;
+  text-shadow:0px 0px 3px black;
+  padding:5px;
 }
 
 .test{
   width:80%;
   margin-right:10%;
   margin-left: 10%;
-  border:1px solid grey;
   position: relative;
   float:left;
+  box-shadow: inset 0px 0px 10px white;
+  background-color:rgb(255,113,108);
 }
 .test > div{
   width:49%;
-  height:145px;
+  height:auto;
 }
 
 .test1{
@@ -148,6 +168,8 @@ h1 {
   width:38%;
   font-size:14px;
   line-height:1;
+  padding-right:20px;
+  color:rgb(102,23,0);
 }
 
 .testimonial{
@@ -158,7 +180,7 @@ h1 {
 
 .testimonial1{
   position: absolute;
-  bottom:0;
+  bottom:10px;
   left:70px;
   height:60px;
   margin-right: 20px;
@@ -167,7 +189,6 @@ h1 {
   position: absolute;
   left:65%;
   top:5px;
-  width:39%;
 }
 
 .testimonial3{
@@ -178,7 +199,7 @@ h1 {
   margin-right: 20px;
 }
 
-.toadpic, .bowser{
+.toadpic, .bowser, .peach{
   width:60px;
   height:60px;
   background-image:url("http://img3.wikia.nocookie.net/__cb20111115195110/mario/de/images/a/ae/NSMBW_Artwork_Toad.png");
@@ -194,7 +215,12 @@ h1 {
   background-image:url("http://images.wikia.com/fantendo/images/archive/9/98/20110731164035!Bowser_NSMBW.png");
   background-size:90px auto;
 }
-.toadpic1{
+.peach{
+  background-image:url("http://images2.fanpop.com/image/photos/9300000/Mario-Party-8-peach-and-daisy-9349959-1044-1580.jpg");
+  background-size:90px auto;
+  background-position:-25px 0px;
+}
+.plant{
   width:60px;
   height:60px;
   position: absolute;
@@ -207,12 +233,12 @@ h1 {
   border:2px solid grey;
   display:inline-block;
   margin:5px;
+  background-image:url("http://img4.wikia.nocookie.net/__cb20121119025023/mario/images/c/c9/Piranha_Plant,_New_Super_Mario_Bros._U.png");
+  background-position:0px 10px;
 }
-p{
-  display:inline-block;
-  vertical-align:top;
-}
+
 h2{
   text-align:center;
-  margin:5px;
+  margin:10px;
+  font-size:20px;
 }
