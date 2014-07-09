@@ -98,16 +98,12 @@ span{
   background-color:rgb(255,209,198);
 }
 
-.main, .side {
-  display: inline-block;
-  vertical-align: top;
-}
-
 .main {
   width: 70%;
   margin-right: 15%;
   margin-left: 15%;
   font-size: 16px;
+  display:inline-block;
 }
 
 .side {
