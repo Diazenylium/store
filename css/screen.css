@@ -54,6 +54,30 @@ table {
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+/*end*/
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: .3em;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
 
 .wrap {
   margin: 0 auto;
@@ -69,38 +93,65 @@ body {
   background: lightgrey;
 }
 
-a {
-  color: #800000;
-}
-
-p {
-  margin-bottom: 1.1em;
-}
-
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: .8em;
-}
-
 .content {
   padding: 20px 0;
   font-size: 0;
 }
 
-.main, .side {
-  display: inline-block;
-  vertical-align: top;
-}
-
 .main {
-  width: 65%;
+  width: 100%;
   margin-right: 5%;
   font-size: 16px;
 }
 
-.side {
-  width: 30%;
-  color: #666;
-  font-size: 14px;
+nav {
+  background-color: red;
+  font-family: helvetica;
 }
+nav a {
+  color: #800000;
+  text-decoration: none;
+  padding: 2em;
+}
+
+/* unvisited link */
+a:link {
+    color: #800000;
+}
+
+/* visited link */
+a:visited {
+    color: #800000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ffffff;
+}
+
+/* selected link */
+a:active {
+    color: #ffffff;
+}
+
+p {
+  margin-bottom: 1.1em;
+  text-indent: 5%;
+}
+
+.pure-u-1-4 {
+  border: 1px solid grey;
+  height: 600px;
+  display: inline-block;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*.pure-g {
+  display: inline-block;
+  width: 240px;
+}*/
