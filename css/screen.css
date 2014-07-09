@@ -55,6 +55,11 @@ table {
   background-position: 0 0;
 }
 
+<<<<<<< HEAD
+/*div{
+  width:100%;
+}*/
+=======
 h1 {
   font-size: 24px;
   font-weight: bold;
@@ -78,14 +83,96 @@ div {
   padding: 0;
 }
 
+>>>>>>> master
 .wrap {
   margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 20px;
-  background: white;
+  max-width: 1200px;
+  background-color: #ffd1c6;
+  padding: 0 0 150px 0;
 }
 
 body {
+<<<<<<< HEAD
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+a {
+  color: #800000;
+}
+
+span {
+  font-size: 18px;
+}
+
+.side {
+  width: 30%;
+  color: #666;
+  font-size: 14px;
+}
+
+.head {
+  height: 850px;
+  position: relative;
+  background-image: url("http://img3.wikia.nocookie.net/__cb20111117181828/fantendo/images/1/18/TripleMushroomsMKC.png");
+  background-size: cover;
+  background-color: #ffa690;
+  background-position: center;
+}
+
+.head1 {
+  display: inline-block;
+  margin-top: 15%;
+  height: 250px;
+  width: 200px;
+  padding: 10px;
+  margin-left: 5%;
+  border-radius: 40px;
+  font-size: 14px;
+  box-shadow: 0px 0px 25px #190000;
+  background-image: radial-gradient(rgba(255, 190, 168, 0.8), rgba(102, 23, 0, 0.8));
+}
+
+.title {
+  font-size: 28px;
+  font-style: italic;
+  padding-bottom: 0px;
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 100%;
+}
+
+.head1 > p {
+  color: white;
+  text-shadow: 0px 0px 3px black;
+  padding: 5px;
+}
+
+.test {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  position: relative;
+  float: left;
+  box-shadow: inset 0px 0px 10px white;
+  background-color: #ff716c;
+}
+
+.test > div {
+  width: 49%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.test1 {
+  height: 50px;
+  font-size: 14px;
+  width: 80%;
+  line-height: 1;
+  padding-right: 20px;
+  color: #661700;
+=======
   font-family: Helvetica;
   font-size: 16px;
   line-height: 21px;
@@ -115,8 +202,39 @@ nav a {
 /* unvisited link */
 a:link {
   color: #800000;
+>>>>>>> master
+}
+.test1:nth-of-type(3) {
+  width: 100%;
 }
 
+<<<<<<< HEAD
+.testimonial {
+  position: absolute;
+  left: 10%;
+  top: 5px;
+}
+
+.testimonial1 {
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.testimonial2 {
+  position: absolute;
+  left: 60%;
+  top: 5px;
+}
+
+.testimonial3 {
+  position: absolute;
+  bottom: 0;
+  left: 60%;
+  height: 60px;
+=======
 /* visited link */
 a:visited {
   color: #800000;
@@ -135,6 +253,7 @@ a:active {
 p {
   margin-bottom: 1.1em;
   text-indent: 5%;
+>>>>>>> master
 }
 
 .pure-u-1-4 {
