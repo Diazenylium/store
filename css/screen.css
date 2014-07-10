@@ -54,45 +54,14 @@ table {
   background-repeat: no-repeat;
   background-position: 0 0;
 }
+/*css*/
 
-<<<<<<< HEAD
-/*div{
-  width:100%;
-}*/
-=======
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: .8em;
-}
-
-h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: .8em;
-}
-
-h3 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: .3em;
-}
-
-div {
-  margin: 0;
+.wrap {
+  margin: 0 auto;
   padding: 0;
 }
 
->>>>>>> master
-.wrap {
-  margin: 0 auto;
-  max-width: 1200px;
-  background-color: #ffd1c6;
-  padding: 0 0 150px 0;
-}
-
 body {
-<<<<<<< HEAD
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -102,45 +71,66 @@ a {
   color: #800000;
 }
 
+p, .content, h3 {
+  font-family: 'ubuntu condensed', sans-serif;
+}
+
+p {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
 span {
   font-size: 18px;
 }
 
-.side {
-  width: 30%;
-  color: #666;
-  font-size: 14px;
+.content {
+  padding: 20px 0;
+  font-size: 0;
+  background-color: #ffd1c6;
 }
 
 .head {
-  height: 850px;
+  height: 600px;
   position: relative;
   background-image: url("http://img3.wikia.nocookie.net/__cb20111117181828/fantendo/images/1/18/TripleMushroomsMKC.png");
-  background-size: cover;
+  background-size: 70% auto;
   background-color: #ffa690;
   background-position: center;
 }
 
 .head1 {
   display: inline-block;
-  margin-top: 15%;
-  height: 250px;
-  width: 200px;
+  margin-top: 5%;
+  height: 350px;
+  width: 250px;
   padding: 10px;
-  margin-left: 5%;
+  margin-left: 7%;
   border-radius: 40px;
   font-size: 14px;
   box-shadow: 0px 0px 25px #190000;
-  background-image: radial-gradient(rgba(255, 190, 168, 0.8), rgba(102, 23, 0, 0.8));
+  background-image: radial-gradient(rgba(255, 190, 168, 0.8), rgba(202, 5, 0, 0.8));
 }
 
 .title {
-  font-size: 28px;
+  font-size: 40px;
   font-style: italic;
   padding-bottom: 0px;
   margin: 0;
   margin-bottom: 5px;
   line-height: 100%;
+}
+
+.titletext {
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .head1 > p {
@@ -153,6 +143,7 @@ span {
   width: 80%;
   margin-right: 10%;
   margin-left: 10%;
+  margin-bottom: 30px;
   position: relative;
   float: left;
   box-shadow: inset 0px 0px 10px white;
@@ -162,53 +153,17 @@ span {
 .test > div {
   width: 49%;
   height: auto;
-  margin: 0 auto;
 }
 
 .test1 {
   height: 50px;
+  width:90%;
   font-size: 14px;
-  width: 80%;
   line-height: 1;
   padding-right: 20px;
   color: #661700;
-=======
-  font-family: Helvetica;
-  font-size: 16px;
-  line-height: 21px;
-  background: lightgrey;
 }
 
-.content {
-  padding: 20px 0;
-  font-size: 0;
-}
-
-.main {
-  width: 100%;
-  margin-right: 5%;
-  font-size: 16px;
-}
-
-nav {
-  background-color: red;
-}
-nav a {
-  color: #800000;
-  text-decoration: none;
-  padding: 2em;
-}
-
-/* unvisited link */
-a:link {
-  color: #800000;
->>>>>>> master
-}
-.test1:nth-of-type(3) {
-  width: 100%;
-}
-
-<<<<<<< HEAD
 .testimonial {
   position: absolute;
   left: 10%;
@@ -225,19 +180,115 @@ a:link {
 
 .testimonial2 {
   position: absolute;
-  left: 60%;
+  left: 65%;
   top: 5px;
 }
 
 .testimonial3 {
   position: absolute;
   bottom: 0;
-  left: 60%;
+  left: 65%;
   height: 60px;
-=======
-/* visited link */
-a:visited {
-  color: #800000;
+  margin-right: 20px;
+}
+
+.toadpic, .bowser, .peach {
+  width: 60px;
+  height: 60px;
+  background-image: url("http://img3.wikia.nocookie.net/__cb20111115195110/mario/de/images/a/ae/NSMBW_Artwork_Toad.png");
+  background-size: 54px auto;
+  background-position: top-center;
+  background-color: grey;
+  border-radius: 50%;
+  border: 2px solid grey;
+  display: inline-block;
+  margin: 5px;
+}
+
+.bowser {
+  background-image: url("http://images.wikia.com/fantendo/images/archive/9/98/20110731164035!Bowser_NSMBW.png");
+  background-size: 90px auto;
+}
+
+.peach {
+  background-image: url("http://images2.fanpop.com/image/photos/9300000/Mario-Party-8-peach-and-daisy-9349959-1044-1580.jpg");
+  background-size: 90px auto;
+  background-position: -25px 0px;
+}
+.peach{
+  position: absolute;
+  left:55%;
+}
+
+.plant {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 75px;
+  left: 55%;
+  background-size: 54px auto;
+  background-position: top-center;
+  background-color: grey;
+  border-radius: 50%;
+  border: 2px solid grey;
+  display: inline-block;
+  margin: 5px;
+  background-image: url("http://img4.wikia.nocookie.net/__cb20121119025023/mario/images/c/c9/Piranha_Plant,_New_Super_Mario_Bros._U.png");
+  background-position: 0px 10px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: .8em;
+}
+
+h2 {
+  color:rgb(170,0,0);
+  font-size: 32px;
+  text-align: center;
+  margin: 30px;
+  text-shadow: 0px 3px 5px rgb(255,100,100);
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px 0;
+  font-size: 0;
+}
+
+nav {
+  background-color: rgb(200,0,0);
+  text-shadow:0px 1px 3px rgba(255,255,255,.9);
+  box-shadow:3px 0px 6px rgba(50,0,0,.8);
+  margin:0;
+  padding-top: 10px;
+  position: fixed;
+  top:0;
+  z-index:5;
+  height: 40px;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+  padding: 2em;
+  font-size: 22px;
+  padding: 10px;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(150,0,0);
 }
 
 /* mouse over link */
@@ -247,33 +298,125 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #ffffff;
+  color: #EEB4B4;
 }
 
-p {
-  margin-bottom: 1.1em;
-  text-indent: 5%;
->>>>>>> master
+.pure-u-3-4 {
+  border: 1px solid darkred;
 }
 
 .pure-u-1-4 {
-  border: 1px solid grey;
-  height: 600px;
+  border: 1px solid darkred;
+  background-color:rgba(255,155,155,1);
+  box-shadow:inset 0px 0px 35px rgba(160,0,0,0.8);
+  height: 490px;
   display: inline-block;
-  padding: 1em;
+  padding: 15px;
+}
+
+.product {
+  width: 80%;
+  margin: 0 auto;
 }
 
 img {
-  width: 100%;
-  height: auto;
+  transition: opacity 0.5s;
+  display: inline-block;
+  width: auto;
+  height: 33%;
+  vertical-align: top;
+  margin-bottom: 30px;
+  opacity:0.6;
+}
+img:hover{
+  transition: opacity 0.5s;
+  opacity:1;
 }
 
-/*.pure-g {
+.form {
   display: inline-block;
-  width: 240px;
-}*/
-h2 {
-  text-align: center;
-  margin: 10px;
-  font-size: 20px;
+  height: 250px;
+}
+/*CSS:put in scss*/
+fieldset {
+  margin-bottom: 1.5em;
+  font-size:16;
+  display:inline-block;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input{
+  background: rgb(234,147,149);
+  display:inline-block;
+  font-size: 16px;
+  padding: 10px 50px;
+}
+
+.choice,.name,.currency,.payment, .specify{
+  margin-left: 10%;
+  margin-right: 10%;
+  width:80%;
+}
+
+.choicetitle{
+  font-size:26px;
+  margin-right: 5px;
+}
+.pure-u-1-5{
+  height:50px;
+  position: relative;
+  margin-top:20px;
+}
+.choicebtn{
+  display:inline-block;
+  background-image: linear-gradient(rgb(255,155,155),red);
+  width:140px;
+  padding:3px;
+  text-align:center;
+  position: absolute;
+  left:5px;
+  top:5px;
+  border-radius:5px;
+}
+.choicebtn:active{
+  background-image:linear-gradient(darkred,red);
+}
+.choicebtn:checked{
+  
+}
+select{
+  font-size:16px;
+}
+.entername,.enterrequest{
+  width:96%;
+  margin:20px 4% 5px 5px;
+}
+#buy {
+  opacity:0;
+}
+
+.submit{
+  width:80%;
+  margin:0 10% 0 10%;
+}
+button {
+  background-image: linear-gradient(rgb(255,155,155),red);
+  font-family:'ubuntu condensed', sans-serif;
+  display:inline-block;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 50px;
+}
+button:active{
+  background-image:linear-gradient(darkred,red);
+}
+
+hr{
+  margin:5px 0 5px 0;
+  background-color:#661700;
+  border-color:#661700;
 }
