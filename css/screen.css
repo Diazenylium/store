@@ -321,6 +321,10 @@ a:active {
 
 img {
   transition: opacity 0.5s;
+  border:1px solid darkred;
+  padding:5px;
+  background-color:white;
+  box-shadow: inset 0px 0px 10px rgba(150,0,0,.8);
   display: inline-block;
   width: auto;
   height: 33%;
