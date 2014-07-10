@@ -1,5 +1,4 @@
 @import "reset";
-
 .wrap {
   margin: 0 auto;
   padding: 0;
@@ -222,13 +221,12 @@ nav {
   z-index:5;
   height: 40px;
   width: 100%;
-  a {
+}
+nav a {
   text-decoration: none;
   padding: 2em;
   font-size: 22px;
   padding: 10px;
-  }
-
 }
 
 /* unvisited link */
@@ -266,6 +264,10 @@ a:active {
 
 img {
   transition: opacity 0.5s;
+  border:1px solid darkred;
+  padding:5px;
+  background-color:white;
+  box-shadow: inset 0px 0px 10px rgba(150,0,0,.8);
   display: inline-block;
   width: auto;
   height: 33%;
