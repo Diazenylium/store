@@ -393,7 +393,9 @@ input {
 .choicebtn:active {
   background-image: linear-gradient(darkred, red);
 }
-
+.choicebnt input:checked + p:before{
+  content:"✓ ";
+}
 select {
   font-size: 16px;
 }
